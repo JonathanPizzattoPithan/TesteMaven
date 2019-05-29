@@ -1,0 +1,6 @@
+language: java
+script:
+  -  mvn teste
+  -  mvn install  -DsKipTests=true  -Dmaven.javadoc.skip=true -B -V
+jdk:
+  -  openjdk9
