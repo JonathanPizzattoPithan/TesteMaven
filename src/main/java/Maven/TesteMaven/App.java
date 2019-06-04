@@ -22,7 +22,7 @@ public class App
  	
     public static void main( String[] args )
     {
-    	System.out.println("Olá");
+    	System.out.println("Olá 2");
         System.out.println( "Dezenas: " + Arrays.toString(getJogo()));
     }
 }
